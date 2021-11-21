@@ -1,0 +1,351 @@
+#Write a program in python to implement all methods of lists and strings from w3schools
+#string
+#capitalise
+txt = "hello, and welcome to my world."
+
+a = txt.capitalize()
+
+print (a)
+
+#casefold
+b = txt.casefold()
+
+print(b)
+
+#center
+c = txt.center(20)
+
+print(c)
+
+#count
+txtt = "I love apples, apple are my favorite fruit"
+
+d = txtt.count("apple")
+
+print(d)
+
+
+#encode
+text = "My name is Ståle"
+
+e = text.encode()
+
+print(e)
+
+
+#endswith
+f = txt.endswith(".")
+
+print(f)
+
+#expandtabs
+tx = "H\te\tl\tl\to"
+
+g =  tx.expandtabs(2)
+
+print(g)
+
+#find
+h = txt.find("welcome")
+
+print(h)
+
+#format
+i = "For only {price:.2f} dollars!"
+print(g.format(price = 49))
+
+#index
+j = txt.index("welcome")
+
+print(j)
+
+#isalnum
+k = "Company12"
+
+l = k.isalnum()
+
+print(l)
+
+#isalpha
+m = "CompanyX"
+
+n = m.isalpha()
+
+print(n)
+
+#isascii
+o = "Company123"
+
+p = o.isascii()
+
+print(p)
+
+#isdecimal
+q = "\u0033" #unicode for 3
+
+r = r.isdecimal()
+
+print(r)
+
+#digit
+s = "50800"
+
+t = t.isdigit()
+
+print(t)
+
+#isidentifier
+u = "Demo"
+
+v = u.isidentifier()
+
+print(v)
+
+#islower
+w = "hello world!"
+
+x = w.islower()
+
+print(x)
+
+#isnumeric
+y = "565543"
+
+z = y.isnumeric()
+
+print(z)
+
+#isprintable
+aa = "Hello! Are you #1?"
+
+ab = aa.isprintable()
+
+print(ab)
+
+#isspace
+ac = "   "
+
+ad = ac.isspace()
+
+print(ad)
+
+#istitle
+ae = txt.istitle()
+
+print(ae)
+
+
+#isupper
+af = "THIS IS NOW!"
+
+ag = af.isupper()
+
+print(ag)
+
+
+#join
+ah = ("John", "Peter", "Vicky")
+
+ai = "#".join(ah)
+
+print(ai)
+
+#|just
+aj = "banana"
+
+ak = aj.ljust(20)
+
+print(ak, "is my favorite fruit.")
+
+#lower
+al = "Hello my FRIENDS"
+
+am = al.lower()
+
+print(am)
+
+#lstrip
+an = "     banana     "
+
+ao = am.lstrip()
+
+print("of all fruits", ao, "is my favorite")
+
+#maketrans
+ap = "Hello Sam!"
+aq = ap.maketrans("S", "P")
+print(txt.translate(aq))
+
+
+#partition
+ar = "I could eat bananas all day"
+
+as = ar.partition("bananas")
+
+print(as)
+
+#replace
+at = "I like bananas"
+
+au = at.replace("bananas", "apples")
+
+print(au)
+
+#rfind
+av = "Mi casa, su casa."
+
+aw = av.rfind("casa")
+
+print(aw)
+
+#rindex
+ax = "Mi casa, su casa."
+
+ay = ax.rindex("casa")
+
+print(ay)
+
+#rjust
+az = "banana"
+
+ba = az.rjust(20)
+
+print(ba, "is my favorite fruit.")
+
+#rpartition
+bb = "I could eat bananas all day, bananas are my favorite fruit"
+
+bc = bb.rpartition("bananas")
+
+print(bc)
+
+#rsplit
+bd = "apple, banana, cherry"
+
+bd = bc.rsplit(", ")
+
+print(bd)
+
+#split
+be = "welcome to the jungle"
+
+bf = be.split()
+
+print(bf)
+
+#splitlines
+bg = "Thank you for the music\nWelcome to the jungle"
+
+bh = bg.splitlines()
+
+print(bh)
+
+#startswith
+bi = "Hello, welcome to my world."
+
+bj = bi.startswith("Hello")
+
+print(bj)
+
+#strip
+bk = "     banana     "
+
+bl = bk.strip()
+
+print("of all fruits", bl, "is my favorite")
+
+#swapcase
+bm = "Hello My Name Is PETER"
+
+bn = bm.swapcase()
+
+print(bn)
+
+#title
+bo = "Welcome to my world"
+
+bp = bo.title()
+
+print(bp)
+
+#translate
+bq = {83:  80}
+br = "Hello Sam!"
+print(br.translate(bq))
+
+
+#upper
+bs = "Hello my friends"
+bt = bs.upper()
+
+print(bt)
+
+#zfill
+bu = "50"
+
+bv = bu.zfill(10)
+
+print(bv)
+
+#list methods
+#append
+fruits = ['apple', 'banana', 'cherry']
+fruits.append("orange")
+
+#clear
+fruitsa = ['apple', 'banana', 'cherry', 'orange']
+
+fruitsa.clear()
+
+#copy
+bw = ['apple', 'banana', 'cherry', 'orange']
+
+bx = bw.copy()
+
+#count
+by = ['apple', 'banana', 'cherry']
+
+bz = by.count("cherry")
+
+
+#extend
+ca = ['apple', 'banana', 'cherry']
+
+cars = ['Ford', 'BMW', 'Volvo']
+
+ca.extend(cars)
+
+#index
+cb = ['apple', 'banana', 'cherry']
+
+cc = cb.index("cherry")
+
+
+#insert
+cd = ['apple', 'banana', 'cherry']
+
+cd.insert(1, "orange")
+
+
+#pop
+ce = ['apple', 'banana', 'cherry']
+
+ce.pop(1)
+
+
+#remove
+cf = ['apple', 'banana', 'cherry']
+
+cf.remove("banana")
+
+
+#reverse
+cg = ['apple', 'banana', 'cherry']
+
+cg.reverse()
+
+
+#sort
+ch = ['Ford', 'BMW', 'Volvo']
+
+ch.sort()
